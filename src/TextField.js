@@ -35,9 +35,6 @@ class TextField extends React.Component {
   onSubmit = () => {
     const url = 'http://ias.test.arteneo.pl/api/public/question/register/' + this.state.name
     fetch(url)
-    this.setState({
-
-    })
   }
 
   onNameSend = () => {
